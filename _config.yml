@@ -1,9 +1,9 @@
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+title: CAMH - SCWG
+email: scientific-computing@info2.camh.net
+description: Scientific computing working group @ CAMH
+baseurl: "/pages/" # the subpath of your site, e.g. /blog/
+url: "http://https://camh-scwg.github.io/" # the base hostname & protocol for your site
 
 twitter_username:
 github_username:
