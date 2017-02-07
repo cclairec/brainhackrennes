@@ -1,6 +1,6 @@
 # Site settings
 title: CAMH - SCWG
-email: scientific-computing@info2.camh.net
+email: scwg@camh.ca
 description: Scientific computing working group @ CAMH
 baseurl: "/pages/" # the subpath of your site, e.g. /blog/
 url: "https://camh-scwg.github.io/" # the base hostname & protocol for your site
