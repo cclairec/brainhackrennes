@@ -2,8 +2,8 @@
 title: Brainhack Warwick 2017
 email: brainhack2017-warwick@googlegroups.com
 description: Scientific computing working group
-baseurl: "/pages/" # the subpath of your site, e.g. /blog/
-url: "https://schw4b.github.io/brainhack2017/" # the base hostname & protocol for your site
+baseurl: "/brainhack2017/" # the subpath of your site, e.g. /blog/
+url: "https://schw4b.github.io" # the base hostname & protocol for your site
 
 background-image: url('/img/banner.jpg')
 
