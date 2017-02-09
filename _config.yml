@@ -1,7 +1,7 @@
 # Site settings
 title: Brainhack Warwick 2017
 email: brainhack2017-warwick@googlegroups.com
-description: Scientific computing working group
+description: 2-day workshop on March 2nd-3rd at the University of Warwick
 baseurl: "/brainhack2017/" # the subpath of your site, e.g. /blog/
 url: "https://schw4b.github.io" # the base hostname & protocol for your site
 
