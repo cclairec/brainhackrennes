@@ -2,8 +2,8 @@
 title: Brainhack Rennes 2018
 email: brainhack@inria.fr
 description: 2-day workshop on April 25th-26th at IRISA Rennes
-baseurl: "/brainhackrennes-2018/" # the subpath of your site, e.g. /blog/
-url: "https://inria-visages.github.io" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://brainhack.irisa.fr" # the base hostname & protocol for your site
 
 background-image: /img/banner.jpg
 
