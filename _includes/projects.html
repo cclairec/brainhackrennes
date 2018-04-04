@@ -2,16 +2,28 @@
   <div class="container">
       <div class="row">
           <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-              <br><h2>Tentative projects</h2>
+              <br><h2>Current projects</h2>
           </div>
       </div>
       <div class="row">
 	    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-		    <p class="text-faded">Bla bla bla</p>
-	    </div>
-	    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-		    <p class="text-faded">Bla bla bla 2</p>
+        <table> 
+        <tr>
+          <td class="text-faded"><img src="img/projects/brainhack_asl_project.png" style="width:200px;" alt="ASL pipelines project" /></td>
+          <td class="text-faded">
+            <strong>Project title</strong>: Develop ASL processing pipeline using <a href="https://github.com/Inria-Visages/Anima-Public">Anima</a> to compute CBF maps <br />
+            <strong>Description</strong>: The goal is to build a complete pipeline for quantifying cerebral blood flow (and possibly other perfusion maps) from ASL and M0 images using Anima, an open source software for medical image processing. This software tool has been developed in C++ and in the open-source ITK sofware framework. The ASL images are processed using a series of steps: registrations, image substractions, masking, denoising... The project consists in combining these different stages of preprocessing using functions already available in Anima. <br /> 
+          </td>
+        </tr>
+        <tr>
+          <td class="text-faded"><img src="img/projects/brainhack_nipype_anima_project.png" style="width:200px;" alt="Nipype and Anima" /></td>
+          <td class="text-faded">
+            <strong>Project title</strong>: Develop interfaces and workflows for <a href="https://github.com/Inria-Visages/Anima-Public">Anima</a> in <a href="http://nipype.readthedocs.io/en/latest/">Nipype</a> <br />
+            <strong>Description</strong>: Nipype looks like a great framework to define small processing bricks and automatically assemble them to form pipelines. Other well known softwares like Nifty* or ANTS already have their interfaces. The idea of this project is to study how workflows and interfaces are made in Nipype through the example of creating some from the Anima open-source software. <br /> 
+          </td>
+        </tr>
+      </table>
 	    </div>
       </div>
-</div>
+  </div>
 </section>
