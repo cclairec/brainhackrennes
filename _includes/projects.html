@@ -7,98 +7,97 @@
       </div>
       <div class="row">
 	    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-        <table> 
-        <col width="50%">
-        <tr>
-          <td valign="top" style="font-size:1.1em;width=50%;">
+
+            <div class="col-md-6 spaced-columns content-wrapper" style="font-size:1.1em; vertical-align:top;" >
             <div align="center">
-            <h3>Develop ASL processing pipeline using <a href="https://github.com/Inria-Visages/Anima-Public">Anima</a> to compute CBF maps</h3> <br />
-            <img src="img/projects/brainhack_asl_project.png" style="width:50%;" alt="ASL pipelines project" /> <br /> <br />
-            </div>
-            The goal is to build a complete pipeline for quantifying cerebral blood flow (and possibly other perfusion maps) from ASL and M0 images using Anima, an open source software for medical image processing. This software tool has been developed in C++ and in the open-source ITK sofware framework. The ASL images are processed using a series of steps: registrations, image substractions, masking, denoising... The project consists in combining these different stages of preprocessing using functions already available in Anima. <br />
-            <strong style="font-size:1.2em">Contacts</strong>: <a href="mailto:julie[dot]coloigner[at]irisa[dot]fr">Julie Coloigner</a>, <a href="mailto:antoine[dot]legouhy[at]irisa[dot]fr">Antoine Legouhy</a> <br /> <br /> <br />
-          </td>
-          <td valign="top" style="font-size:1.1em;width=50%;">
-            <div align="center">
-            <h3>Develop interfaces and workflows for <a href="https://github.com/Inria-Visages/Anima-Public">Anima</a> in <a href="http://nipype.readthedocs.io/en/latest/">Nipype</a></h3> <br />
-            <img src="img/projects/brainhack_nipype_anima_project.png" style="width:50%;" alt="Nipype and Anima" /> <br /> <br />
-          </div>
-            Nipype looks like a great framework to define small processing bricks and automatically assemble them to form pipelines. Other well known softwares like Nifty* or ANTS already have their interfaces. The idea of this project is to study how workflows and interfaces are made in Nipype through the example of creating some from the Anima open-source software. <br />
-            <strong style="font-size:1.2em">Contact</strong>: <a href="mailto:olivier[dot]commowick[at]inria[dot]fr">Olivier Commowick</a> <br /> <br /> <br />
-          </td>
-        </tr>
-        <tr>
-          <td valign="top" style="font-size:1.1em;">
-            <div align="center">
-            <h3>An overview of <a href="http://med.inria.fr">medInria</a> plugins creation</h3> <br />
-            <img src="img/projects/brainhack_medinria_tutorial.png" style="width:50%;" alt="medInria tutorial" /> <br /> <br />
-            </div>
-            medInria 3.0 was recently released and offers to developers who want to share their work a way to create plugins (either open source or not) so that they appear in medInria automatically. This micro-tutorial will concentrate on showing a few examples of plugins and what are the steps necessary to create them in medInria 3.0. <br />
-            <strong style="font-size:1.2em">Contact</strong>: <a href="mailto:olivier[dot]commowick[at]inria[dot]fr">Olivier Commowick</a> <br /> <br /> <br />
-          </td>
-          <td valign="top" style="font-size:1.1em;">
-            <div align="center">
-            <h3>Acquiring and processing neurofeedback EEG data with <a href="https://www.mensia.com/">MENSIA Modulo</a></h3> <br />
-            <img src="img/projects/brainhack_eeg_project.png" style="width:50%;" alt="EEG project" /> <br /> <br />
-            </div>
-            We have a new 8 channels EEG cap from MENSIA Modulo, and we would like to see how it works in a first time. Then we want to acquire several neurofeedback sessions, convert the data to a matlab formating, before processing the EEG signals and modelling the neurofeedback scores to improve the NF filtering. <br />
-            <strong style="font-size:1.2em">Contacts</strong>: <a href="mailto:claire[dot]cury[at]inria[dot]fr">Claire Cury</a> and <a href="mailto:giulia[dot]lioi[at]inria[dot]fr">Giulia Lioi</a> <br /> <br /> <br />
-          </td>
-        </tr>
-        <tr>
-          <td valign="top" style="font-size:1.1em;">
-            <div align="center">
-            <h3>Develop a fully-Python task-based fMRI processing pipeline</h3> <br />
-            <img src="img/projects/brainhack_bids_fmri_project.png" style="width:50%;" alt="fMRI processing" /> <br /> <br />
-            </div>
-            This project aims at processing a task-based fMRI dataset with Python tools only (Nipype, nistats, nilearn, nibabel etc...). The pipeline shall include the following steps: reading a BIDS format dataset, performing the pre-processing stages (slice timing, realignment, coregistration, normalisation), specifying design matrices (GLM 1st and 2nd level) and generating a results report. <br />
-            <strong style="font-size:1.2em">Contact</strong>: <a href="mailto:quentin[dot]duche[at]inria[dot]fr">Quentin Duché</a> <br /> <br /> <br />
-          </td>
-          <td valign="top" style="font-size:1.1em;">
-            <div align="center">
-            <h3>Discuss fMRI processing methods and tools</h3> <br />
-            <img src="img/projects/brainhack_fmri.png" style="width:50%;" alt="fMRI general project" /> <br /> <br />
-            </div>
-            What you always wanted to try and never find the time too, starting with for example denoising, modelling for task based fMRI, whole brain or ROI analysis, correction for multiple comparisons, DCM. <br />
-            <strong style="font-size:1.2em">Contact</strong>: <a href="mailto:elise[dot]bannier[at]irisa[dot]fr">Elise Bannier</a> <br /> <br /> <br />
-          </td>
-        </tr>
-        <tr>
-          <td valign="top" style="font-size:1.1em;">
-            <div align="center">
-            <h3>BIDS importer/exporter for Shanoir</h3> <br />
-            <img src="img/projects/brainhack_bids_shanoir.png" style="width:50%;" alt="BIDS shanoir" /> <br /> <br />
-            </div>
-            We will develop a new feature for the brain imaging database <a href="https://fairsharing.org/biodbcore-001058">Shanoir</a> to allow for import of datasets organised using the <a href="http://bids.neuroimaging.io/">Brain Imaging Data Structure (BIDS)</a>. We will use public datasets from <a href="https://openneuro.org">OpenfMRI</a> as test data. <br />
-            <strong style="font-size:1.2em">Contact</strong>: <a href="mailto:michael[dot]kain[at]inria[dot]fr">Michael Kain</a> <br /> <br /> <br />
-          </td>
-          <td valign="top" style="font-size:1.1em;">
-            <div align="center">
-            <h3>Implementing a simple Brain-Computer Interface with the Emotiv portable EEG</h3> <br />
-            <img src="img/projects/brainhack_eeg16_pong.png" style="width:50%;" alt="EEG pong" /> <br /> <br />
-            </div>
-            The goal of the project would be to investigate the capability of the Emotiv EPOC 16-channel portable EEG to design a BCI applications. We can start with a simple binary classification case and let's see where we finish ! <br />
-            <strong style="font-size:1.2em">Contact</strong>: <a href="mailto:pierre[dot]maurel[at]irisa[dot]fr">Pierre Maurel</a>
-          </td>
-        </tr>
-        <tr>
-          <td valign="top" style="font-size:1.1em;">
-            <div align="center">
-            <h3>A Deep Learning playground</h3> <br />
-            <img src="img/projects/brainhack_dl.png" style="width:50%;" alt="Deep learning" /> <br /> <br />
-            </div>
-            A practical on how to use Google’s Tensor Flow framework (i.e. Tensor Flow in Python) to create artificial neural networks for deep learning. We will try to achieve an easy understanding of the complexities of the Tensor Flow framework, build a network from scratch with Python, and - why not - use a convolutional neural network for image processing. <br />
-            <strong style="font-size:1.2em">Contact</strong>: <a href="mailto:francesca[dot]galassi[at]inria[dot]fr">Francesca Galassi</a>
-          </td>
-          <td valign="top" style="font-size:1.1em;" class="text-faded">
-            <div align="center">
-            <h2>Your project!</h2> <br />
+            <h3>Your project!</h3>
             <p>Is there a topic you are particularly interested in? A tool you would like to work on? Submit your own project!</p>
             </div>
-            Projects can cover any type of software development, but also can be a proposal for a focus discussion or, a self-training using public resources, and even more! All project proposals will be considered, please contact us if you are unsure whether your proposal can be submitted as a project. To submit a project, please <a href="mailto:brainhack[at]irisa[dot]fr">email us</a> a project title and a short description with an image.
-          </td>
-        </tr>
-      </table>
+            <p>Projects can cover any type of software development, but also can be a proposal for a focus discussion or, a self-training using public resources, and even more! All project proposals will be considered, please contact us if you are unsure whether your proposal can be submitted as a project. To submit a project, please <a href="mailto:brainhack[at]irisa[dot]fr">email us</a> a project title and a short description with an image.</p>
+          </div>
+          
+          <div class="col-md-6 spaced-columns content-wrapper" style="font-size:1.1em; vertical-align:top;" >
+            <div align="center">
+            <h3>Develop ASL processing pipeline using <a href="https://github.com/Inria-Visages/Anima-Public">Anima</a> to compute CBF maps</h3> 
+            <p><img src="img/projects/brainhack_asl_project.png" style="width:80%;" alt="ASL pipelines project" /> </p>
+            </div>
+            <p>The goal is to build a complete pipeline for quantifying cerebral blood flow (and possibly other perfusion maps) from ASL and M0 images using Anima, an open source software for medical image processing. The project consists in combining different stages of ASL preprocessing images using functions already available in Anima </p>
+            <p><strong style="font-size:1.2em">Contacts</strong>: <a href="mailto:julie[dot]coloigner[at]irisa[dot]fr">Julie Coloigner</a>, <a href="mailto:antoine[dot]legouhy[at]irisa[dot]fr">Antoine Legouhy</a> </p>
+          </div>
+          
+            <div class="col-md-6 spaced-columns content-wrapper" style="font-size:1.1em; vertical-align:top;" >
+            <div align="center">
+            <h3>Discuss fMRI processing methods and tools</h3> 
+            <p><img src="img/projects/brainhack_fmri.png" style="width:80%;" alt="fMRI general project" /> </p>
+            </div>
+            <p>What you always wanted to try and never find the time too, starting with for example denoising, modelling for task based fMRI, whole brain or ROI analysis, correction for multiple comparisons, DCM. </p>
+            <p><strong style="font-size:1.2em">Contact</strong>: <a href="mailto:elise[dot]bannier[at]irisa[dot]fr">Elise Bannier</a> </p>
+          </div>
+          
+         <div class="col-md-6 spaced-columns content-wrapper" style="font-size:1.1em; vertical-align:top;" >
+            <div align="center">
+            <h3>Develop interfaces and workflows for <a href="https://github.com/Inria-Visages/Anima-Public">Anima</a> in <a href="http://nipype.readthedocs.io/en/latest/">Nipype</a></h3> 
+            <p><img src="img/projects/brainhack_nipype_anima_project.png" style="width:80%;" alt="Nipype and Anima" /> </p>
+          </div>
+            <p>Nipype looks like a great framework to define small processing bricks and automatically assemble them to form pipelines. Other well known softwares like Nifty* or ANTS already have their interfaces. The idea of this project is to study how workflows and interfaces are made in Nipype through the example of creating some from the Anima open-source software. </p>
+            <p><strong style="font-size:1.2em">Contact</strong>: <a href="mailto:olivier[dot]commowick[at]inria[dot]fr">Olivier Commowick</a> </p>
+          </div>
+          
+         <div class="col-md-6 spaced-columns content-wrapper" style="font-size:1.1em; vertical-align:top;" >
+            <div align="center">
+            <h3>An overview of <a href="http://med.inria.fr">medInria</a> plugins creation</h3> 
+            <p><img src="img/projects/brainhack_medinria_tutorial.png" style="width:80%;" alt="medInria tutorial" /> </p>
+            </div>
+            <p>medInria 3.0 was recently released and offers to developers who want to share their work a way to create plugins (either open source or not) so that they appear in medInria automatically. This micro-tutorial will concentrate on showing a few examples of plugins and what are the steps necessary to create them in medInria 3.0. </p>
+            <p><strong style="font-size:1.2em">Contact</strong>: <a href="mailto:olivier[dot]commowick[at]inria[dot]fr">Olivier Commowick</a> </p>
+            </div>
+            
+           <div class="col-md-6 spaced-columns content-wrapper" style="font-size:1.1em; vertical-align:top;" >
+            <div align="center">
+            <h3>Acquiring and processing neurofeedback EEG data with <a href="https://www.mensia.com/">MENSIA Modulo</a></h3> 
+            <p><img src="img/projects/brainhack_eeg_project.png" style="width:80%;" alt="EEG project" /> </p>
+            </div>
+            <p>We have a new 8 channels EEG cap from MENSIA Modulo, and we would like to see how it works in a first time. Then we want to acquire several neurofeedback sessions, convert the data to a matlab formating, before processing the EEG signals and modelling the neurofeedback scores to improve the NF filtering. </p>
+            <p><strong style="font-size:1.2em">Contacts</strong>: <a href="mailto:claire[dot]cury[at]inria[dot]fr">Claire Cury</a> and <a href="mailto:giulia[dot]lioi[at]inria[dot]fr">Giulia Lioi</a> </p>
+          </div>
+          
+           <div class="col-md-6 spaced-columns content-wrapper" style="font-size:1.1em; vertical-align:top;" > 
+           <div align="center">
+            <h3>BIDS importer/exporter for Shanoir</h3> 
+            <p><img src="img/projects/brainhack_bids_shanoir.png" style="width:80%;" alt="BIDS shanoir" /> </p>
+            </div>
+            <p>We will develop a new feature for the brain imaging database <a href="https://fairsharing.org/biodbcore-001058">Shanoir</a> to allow for import of datasets organised using the <a href="http://bids.neuroimaging.io/">Brain Imaging Data Structure (BIDS)</a>. We will use public datasets from <a href="https://openneuro.org">OpenfMRI</a> as test data. </p>
+            <p><strong style="font-size:1.2em">Contact</strong>: <a href="mailto:michael[dot]kain[at]inria[dot]fr">Michael Kain</a> </p>
+          </div>
+          
+         <div class="col-md-6 spaced-columns content-wrapper" style="font-size:1.1em; vertical-align:top;" >
+            <div align="center">
+            <h3>Develop a fully-Python task-based fMRI processing pipeline</h3> 
+            <p><img src="img/projects/brainhack_bids_fmri_project.png" style="width:80%;" alt="fMRI processing" /> </p>
+            </div>
+            <p>This project aims at processing a task-based fMRI dataset with Python tools only (Nipype, nistats, nilearn, nibabel etc...). The pipeline shall include the following steps: reading a BIDS format dataset, performing the pre-processing stages (slice timing, realignment, coregistration, normalisation), specifying design matrices (GLM 1st and 2nd level) and generating a results report. </p>
+            <p><strong style="font-size:1.2em">Contact</strong>: <a href="mailto:quentin[dot]duche[at]inria[dot]fr">Quentin Duché</a> </p>
+          </div>
+          
+         
+         <div class="col-md-6 spaced-columns content-wrapper" style="font-size:1.1em; vertical-align:top;" >
+            <div align="center">
+            <h3>Implementing a simple Brain-Computer Interface with the Emotiv portable EEG</h3> 
+            <p><img src="img/projects/brainhack_eeg16_pong.png" style="width:80%;" alt="EEG pong" /> </p>
+            </div>
+            <p>The goal of the project would be to investigate the capability of the Emotiv EPOC 16-channel portable EEG to design a BCI applications. We can start with a simple binary classification case and let's see where we finish ! </p>
+            <p><strong style="font-size:1.2em">Contact</strong>: <a href="mailto:pierre[dot]maurel[at]irisa[dot]fr">Pierre Maurel</a></p>
+          </div>
+          
+         <div class="col-md-6 spaced-columns content-wrapper" style="font-size:1.1em; vertical-align:top;" >     
+            <div align="center">
+            <h3>A Deep Learning playground</h3> 
+            <p><img src="img/projects/brainhack_dl.png" style="width:80%;" alt="Deep learning" /> </p>
+            </div>
+            <p>A practical on how to use Google’s Tensor Flow framework (i.e. Tensor Flow in Python) to create artificial neural networks for deep learning. We will try to achieve an easy understanding of the complexities of the Tensor Flow framework, build a network from scratch with Python, and - why not - use a convolutional neural network for image processing. </p>
+            <p><strong style="font-size:1.2em">Contact</strong>: <a href="mailto:francesca[dot]galassi[at]inria[dot]fr">Francesca Galassi</a></p>
+          </div>
+
 	    </div>
       </div>
   </div>
